@@ -1,0 +1,259 @@
+@media screen and (max-width: 1400px) {
+  #profile{
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+
+  .about-container {
+    flex-wrap: wrap;
+  }
+
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav{
+    display: flex;
+  }
+}
+
+
+/*@media screen and (max-width: 1200px) {*/
+/*  #desktop-nav {*/
+/*    display: none;*/
+/*  }*/
+/*  #hamburger-nav{*/
+/*    display: flex;*/
+/*  }*/
+/*  #experience, .experience-details-container {*/
+/*    margin-top: 2rem;*/
+/*  }*/
+/*  #profile,*/
+/*  .section-container{*/
+/*    display: inline-block;*/
+
+/*  }*/
+/*  .arrow{*/
+/*    display: none;*/
+/*  }*/
+
+/*  section,*/
+/*  .section-container{*/
+/*    height: fit-content;*/
+/*  }*/
+/*  section{*/
+/*    margin: 0 5%;*/
+/*  }*/
+
+/*  .section__pic-container {*/
+/*    width: 275px;*/
+/*    height: 275px;*/
+/*    margin: 0 auto 2rem;*/
+/*  }*/
+/*  .about-container{*/
+/*    margin-top: 0;*/
+/*  }*/
+
+/*}*/
+
+/*@media screen and (max-width: 600px) {*/
+/*  #contact footer {*/
+/*  height: 40vh*/
+/*  }*/
+
+/*  #profile {*/
+/*    height: 83vh;*/
+/*    margin-bottom: 0;*/
+
+/*  }*/
+
+/*  article {*/
+/*    font-size: 1rem;*/
+/*  }*/
+
+/*  footer nav {*/
+/*    height: fit-content;*/
+/*    margin-bottom: 2rem;*/
+/*  }*/
+/*  .about-containers,*/
+/*  .contact-info-upper-container,*/
+/*  .btn-container {*/
+/*    flex-wrap: wrap;*/
+/*  }*/
+
+/*  .contact-info-container{*/
+/*    margin: 0;*/
+/*  }*/
+
+/*  .contact-info-container p,*/
+/*  .nav-links li a {*/
+/*    font-size: 1rem;*/
+/*  }*/
+
+/*  .experience-sub-title{*/
+/*    font-size: 1.25rem;*/
+/*  }*/
+
+/*  .logo {*/
+/*    font-size: 1.5rem;*/
+/*  }*/
+
+/*  .nav-links{*/
+/*    flex-direction: column;*/
+/*    gap: 0.5rem;*/
+/*    text-align: center;*/
+/*  }*/
+/*  .section__pic-container {*/
+/*    width: auto;*/
+/*    height: 46VW;*/
+/*    justify-content: center;*/
+/*  }*/
+
+/*  .section__text_p2{*/
+/*    font-size: 1.25rem;*/
+/*  }*/
+
+/*  .title {*/
+/*    font-size: 2rem;*/
+/*  }*/
+
+/*  .text-container{*/
+/*    text-align: justify;*/
+/*  }*/
+
+/*}*/
+
+/* iPhone SE (width 375px and below) */
+@media only screen and (max-width: 375px) {
+
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container {
+      flex-wrap: wrap;
+    }
+
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav{
+    display: flex;
+  }
+
+  nav {
+    flex-direction: column; /* Stack navigation elements vertically */
+    height: auto;
+    padding: 1rem 0;
+  }
+
+  .logo {
+    font-size: 1.5rem; /* Reduce logo size */
+  }
+
+  .nav-links {
+    font-size: 1.2rem; /* Reduce font size of navigation links */
+    gap: 1rem;
+  }
+
+  section {
+    margin: 0 1rem; /* Reduce side margin */
+    padding-top: 2rem; /* Reduce padding for sections */
+    height: auto; /* Allow height to adjust based on content */
+  }
+
+  .section__pic-container {
+    height: auto; /* Adjust image height */
+    width: auto; /* Adjust image width */
+    justify-content: center;
+  }
+
+  .section__pic-container img{
+    height: 60%; /* Adjust image height */
+    width: 60%; /* Adjust image width */
+  }
+
+  .section__text_p2 {
+    font-size: 1.25rem; /* Reduce font size */
+  }
+
+  .title {
+    font-size: 2.5rem; /* Reduce title size */
+  }
+
+  /* Profile Section */
+  #profile {
+    flex-direction: column; /* Stack profile picture and text */
+    gap: 2rem; /* Reduce gap */
+    height: 83vh;
+  }
+
+  /* Experience Section */
+  .experience-details-container {
+    flex-direction: column; /* Stack experience containers vertically */
+  }
+
+  .experience-containers {
+    flex-direction: column; /* Stack experience containers */
+  }
+
+  article {
+    width: 100%; /* Make article width 100% */
+    justify-content: flex-start; /* Align content to the left */
+  }
+
+  .article-container {
+    gap: 1rem; /* Reduce gap between articles */
+  }
+
+  /* Buttons */
+  .btn {
+    padding: 0.75rem;
+    width: 6rem; /* Reduce button size */
+    font-size: 0.875rem; /* Reduce font size */
+  }
+
+  /* Contact Section */
+  #contact {
+    height: auto; /* Allow height to adjust */
+  }
+
+  .contact-info-upper-container {
+    flex-direction: column; /* Stack contact info vertically */
+    padding: 1rem;
+  }
+
+  .contact-info-container {
+    gap: 0.25rem; /* Reduce gap between contact icons and text */
+  }
+
+  footer {
+    height: auto; /* Adjust footer height */
+    padding: 1rem; /* Add padding to footer */
+  }
+}
+
+
+/* Tablets (width 768px and below) */
+@media only screen and (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    height: auto;
+  }
+
+  section {
+    margin: 0 2rem;
+    height: auto;
+  }
+
+  .section__pic-container {
+    height: 275px;
+    width: 275px;
+  }
+
+  .experience-details-container {
+    flex-direction: column;
+  }
+
+  .experience-containers {
+    flex-direction: column;
+  }
+}
