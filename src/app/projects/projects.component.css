@@ -1,0 +1,47 @@
+#projects {
+  position: relative;
+}
+
+
+.color-container {
+  border-color:  rgb(163,163,163);
+  background: rgb(250,250,250);
+}
+
+.project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+
+.project-title {
+  margin: 1rem;
+  color: black;
+}
+
+.project-btn {
+  border-color:  rgb(163,163,163);
+  color: black;
+}
+
+
+.project-details-container {
+  display: flex;
+  flex-direction: row; /* Row direction */
+  justify-content: center; /* Center the items */
+  align-items: flex-start; /* Align items at the start */
+  flex-wrap: wrap; /* Allow items to wrap to the next line if they don't fit */
+  gap: 20px; /* Space between project containers */
+}
+
+.project-containers {
+  display: flex; /* Use flexbox for the project containers */
+  gap: 20px; /* Space between individual project details */
+}
+
+/* Optionally set a max-width or specific width for each project container */
+.project-details-container.color-container {
+  width: 300px; /* Adjust this width as needed */
+  flex-direction: column; /* Stack elements vertically within each project */
+  padding: 10px; /* Add some padding */
+}
